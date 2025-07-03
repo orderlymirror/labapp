@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "✅ Your Flask App is LIVE on Azure!"
+    return "app is now live on azure"
 
 if __name__ == '__main__':
     app.run()
